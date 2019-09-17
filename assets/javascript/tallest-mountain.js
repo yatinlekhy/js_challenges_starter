@@ -1,5 +1,7 @@
 (function(){
+let mountainheight =["100","900","1000","700"]
 
-    document.write("hello from tallest-mountain.js");
+console.log (Math.max(...mountainheight));
+   //  document.write("hello from tallest-mountain.js");
 
 })();

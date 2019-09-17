@@ -1,9 +1,19 @@
-(function(){
+(function () {
+    //let whatDoYouThink = prompt("heads or tails?")
+   // let coinflipper = document.querySelector("#coinflipper")
 
-    //outputs string to the body of the document
-    document.write("hello from coin-flip.js");
+   // coinflipper.addEventListener("click", function () {
+        if (Math.random() > .5) {
+            console.log("heads");
 
-    //outputs the string to the browsers console
-    console.log("hello from coin-flip.js");
+        } else {
+            console.log("tails")
+        }
+        //outputs string to the body of the document
+       // document.write("hello from coin-flip.js");
 
-})();
+        //outputs the string to the browsers console
+       // console.log("hello from coin-flip.js");
+
+    })
+();
