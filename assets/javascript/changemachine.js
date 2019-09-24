@@ -1,10 +1,15 @@
 (function (){
- let total = 47
+ let total = 17
  let bills =[]
 if(total>20){
     let numberOfTwenties = Math.floor(total/20)
     total = total % 20
     bills[0] = numberOfTwenties
+
+} else {
+    bills[0]=0
+    }
+
     if(total>10){
         let numberOfTens = Math.floor(total/10)
         bills[1] =numberOfTens
@@ -27,9 +32,7 @@ if(total>20){
     } else {
         bills[3]=0
     }
-} else {
-bills[0]=0
-}
+
 console.log(bills)
 })
 
